@@ -216,15 +216,15 @@ border-radius: 40px;
 }
 
 .card-title-1 {
-	margin-top: 10px;
-	background: linear-gradient(to bottom, #FF6A3D, #FFC107);
-	line-height: 24px;
+	margin: 25px;
+	background: #1A2238;
+	color: #eaeaea;
 	font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
     font-weight: bolder;
-	color: #ffffff;
+	border-radius: 50px;
 }
+
 
 footer {
 	padding: 20px;
@@ -293,3 +293,13 @@ footer {
       z-index: -1;
     }
     
+
+.parallax-3 {
+
+	background-image: url('assets/icon/fotogereja.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
